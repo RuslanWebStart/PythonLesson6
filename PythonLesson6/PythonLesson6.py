@@ -9,7 +9,7 @@ quantity = 0
 for i in range(N):
     n = int(input('Введите число: '))
 
-    if n % 2 == 0:
+    if n == 0:
         quantity += 1
 
 print('Чисел равных 0:', quantity)
@@ -34,7 +34,7 @@ A = int(input('Число А: '))
 B = int(input('Число В: '))
 segment = ''
 
-for i in range(A, B):
+for i in range(A, B + 1):
     if i % 2 == 0:
         segment += str(i) + ' '
 
